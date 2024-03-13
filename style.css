@@ -1,0 +1,215 @@
+html {
+   height: 100%;
+   width: 100%;
+ }
+ 
+ body {
+   box-sizing: border-box;
+   margin: 0;
+   color: black;
+   background-color: whitesmoke;
+   font-family: lucida sans;
+   text-align: center;
+   background-position: center;
+   background-size: cover;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .logo{
+   background-color: #0A0E4E;
+   color: floralwhite;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding: 10px 10px;
+   height: 100px;
+ }
+ 
+ .logo-main-text{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: 800;
+ }
+ 
+ .logo-text{
+   color: red;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: italic;
+   font-weight: 700;
+ }
+ 
+ nav{
+   padding-bottom: 20px;
+ }
+ 
+ nav li{
+   float: left;
+ }
+ 
+ nav li a {
+   display: block;
+   color: darkslategray;
+   text-align: center;
+   padding: 10px 14px;
+   text-decoration: none;
+ }
+ 
+ nav li a:hover {
+   color: red;
+   cursor: pointer;
+ }
+
+ .mission-statement{
+  /* color: rgb(109, 19, 19); */
+  color: red;
+  border: 3px dotted grey;
+  padding: 10px 10px;
+  justify-content: center;
+ }
+
+ .mission-text{
+  color: #0A0E4E;
+ }
+
+ .mission-statement p {
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  font-weight: 700;
+ }
+
+ .about-us h2{
+  color: #0A0E4E;
+  font-weight: 900;
+  font-size: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ .about-us p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+ }
+
+ .about-us h3{
+  color: red;
+ }
+
+ .about-us a:hover {
+  color: red;
+  box-shadow: 4px 4px 7px grey;
+  cursor: pointer;
+ }
+
+.courses{
+  display: flex;
+  gap: 20px;
+  border-top: 3px dashed grey;
+  border-bottom: 3px dashed grey;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.check-out{
+  color: blue;
+}
+
+.amazing-styles{
+  /* background-color: blue; */
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(25, 0,0,1));
+}
+
+.sign-up h2 {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #0A0E4E);
+}
+
+.sign-up h3{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #0A0E4E);
+}
+
+.sign-up a{
+  color: rgb(7, 31, 75);
+}
+
+.sign-up a:hover{
+  color: red;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px grey;
+}
+
+.sign-in h4{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), #0A0E4E);
+}
+
+.sign-in a{
+  color: rgb(7, 31, 75);
+}
+
+.sign-in a:hover{
+  color: red;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px grey;
+}
+
+.contact-us{
+  border: 9px dotted #f2f2f5;
+  background-color: #0A0E4E;
+  color: azure;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  padding-top: 10px;
+  padding-bottom: 40px;
+
+}
+
+.contact-us h3{
+  color: red;
+}
+
+.contact-us input{
+  height: 24px;
+  width: 240px;
+}
+
+.contact-us button{
+  height: 29px;
+  width: 90px;
+  color: whitesmoke;
+  background-color: #5660eb;
+  border-radius: 3px 7px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+}
+
+.contact-us button:hover{
+  color: red;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px grey;
+}
+
+.follow-us{
+  color: red;
+}
+
+.contact-us h4{
+  color: red;
+}
+
+.phone{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 7px;
+}
+
+
+.social-icons{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+
+
+
+
+

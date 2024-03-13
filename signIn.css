@@ -1,0 +1,52 @@
+html{
+    margin: 0;
+    background-color: #0A0E4E;
+}
+
+h1{
+    color: white;
+    padding-left: 610px;
+}
+
+.signIn-form{
+    box-shadow: 0 0 14px grey;
+    margin: auto;
+    height: 140px;
+    width: 370px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 2rem;
+}
+
+.signIn-form label{
+    color: red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.signIn-form button{
+    width: 80px;
+    height: 40px;
+    background-color: #0A0E4E;
+    color: whitesmoke;
+    border-radius: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px 10px grey;
+    font-style: oblique;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.signIn-form button:hover {
+    box-shadow: 3px 3px 10px red;
+    cursor: pointer;
+}
+
+.signIn-form h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: light;
+}
+
+.signIn-form a:hover{
+    color: red;
+    cursor: pointer;
+}
